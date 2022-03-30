@@ -7,7 +7,7 @@ app = Flask(__name__, static_folder='./sources', static_url_path='/sources')
 @app.route('/')
 def index():
     # return "Hello World!"
-    return app.send_static_file('sources/html/index.html')
+    return app.send_static_file('html/index.html')
 
 if __name__ == '__main__':
     port = int(os.getenv("PORT"))
