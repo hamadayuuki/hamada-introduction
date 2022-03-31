@@ -10,5 +10,6 @@ def index():
     return app.send_static_file('html/index.html')
 
 if __name__ == '__main__':
-    port = int(os.getenv("PORT"))
+    # port = int(os.getenv("PORT"))
+    port = 100
     app.run(debug=True, host='0.0.0.0', port=port)

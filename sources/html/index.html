@@ -4,11 +4,12 @@
 
     <head>
         <meta charset="utf-8">
-        <title>濵田のhtmlサイト</title>
+        <title>清原翔のホームページ</title>
         <link rel="icon" href="hamada_html.ico">
         <meta name="description" content="濵田のhtmlサイトです">
 
-        <link rel="stylesheet" href="../css/stylesheet.css">
+        <!-- flask のプログラムが入ったファイルからの相対パス -->
+        <link rel="stylesheet" type="text/css" href="sources/css/stylesheet.css"/>
 
         <!-- cssではなくhtmlに直接文字フォントの調整を行う方法 -->
     
@@ -35,56 +36,28 @@
             <div class="container">
 
                 <div class="icon">
-                    <img src="../img/清原翔_1.jpg" width="300" height="300" alt="画像の表示なし">
+                    <img src="sources/img/清原翔_1.jpg" width="300" height="300" alt="画像の表示なし">
                     
                 </div>
                 
                 <div class="info">
                     
-                    <h1>濵田悠樹</h1>
-                    <p>鹿児島大学2年です</p><br>
-
-                    <p><a href="https://hamadayuuki.buyshop.jp" target="_blank">ネットショッピングしてます</a></p>
+                    <h1>清原翔</h1>
+                    <p>モデルです。</p><br>
 
                     <ul>
                         <!-- ※ 画像にリンクを貼りたい時には <img> </img> タグを <a> </a> タグで括る -->
 
                         <li>
-                            <a href="https://hamadayuuki.buyshop.jp" target="_blank">
-                                <img src="../img/Logo.png" width="120" height="50" alt="ショッピングサイトのロゴ" data-action="zoom">
-                            </a>
-                            
-                        </li>
-
-                        <li>
-                            <a href="https://www.hotpepper.jp/strJ000602735/yoyaku/">
-                                <img src="../img/予約_Logo.png" width="80" height="50" alt="予約用のロゴ">
-                            </a>
-                            
-                        </li>
-
-                        <li>
-                            <div class="menu_Logo">
-
-                                <a href="https://www.hotpepper.jp/strJ000602735/course/" target="_blank">
-                                    <p>メニュー</p>
-                                </a>
-
-                            </div>
-                            
-                            
-                        </li>
-
-                        <li>
                             <a href="https://www.kagoshima-u.ac.jp" target="_blank">
-                                <img src="../img/icon_kagoshimaUni.png" width="120" height="50" alt="ブログサイトのリンク画像です">
+                                <img src="sources/img/icon_kagoshimaUni.png" width="120" height="50" alt="ブログサイトのリンク画像です">
                             </a>
                         </li>
             
             
                         <li>
                             <a href="https://www.stardust.co.jp/section1/profile/kiyoharasho.html" target="_blank">
-                                <img src="../img/icon_kiyohara.png" width="120" height="50" alt="写真サイトのリンク画像です">
+                                <img src="sources/img/icon_kiyohara.png" width="120" height="50" alt="写真サイトのリンク画像です">
                             </a>
             
                         </li>
@@ -111,13 +84,9 @@
 
             <!-- https://www.stardust.co.jp/section1/profile/kiyoharasho.html -->
             <section>
-                <h1 class="name_1">清原翔</h1>
-
-               
+                
                 <div class="box">
-                    <div class="box_image">
-                        <img src="https://base-ec2.akamaized.net/images/user/template/hamadayuuki-buyshop-jp/image-PickupBlockImage1_5f71a7f5e5c4a.jpg"  width="500" height="800" data-action="zoom" class=Pic_1>
-
+                    
                     </div>
 
                     <div class="box_text">
@@ -142,8 +111,6 @@
             <div class="scroll_Pic ver2"> </div>
     
             <section class="work_2">
-
-                <h1 class="name_2">清原翔_2</h1>
                 
                 <div class="Explanation2">
                     <p>今は俳優をしています。<br></br>ドラマでも活躍しています<br></br</p>
@@ -151,7 +118,7 @@
 
                 <div class="img_Pic2">
 
-                    <img src="../img/tokyoLoveStory_kiyohara.jpg" width="800" height="500" alt="2枚目の画像" class="pic_2">
+                    <img src="sources/img/tokyoLoveStory_kiyohara.jpg" width="800" height="500" alt="2枚目の画像" class="pic_2">
 
                 </div>
 
@@ -162,11 +129,10 @@
             <div class="scroll_Pic ver3"> </div>
 
             <section>
-                <h1 class="name_3">清原翔_3</h1>
 
                 <div class="img_Pic3">
 
-                    <img src="../img/0-2.png" width="500" height="400"  class="pic_3">
+                    <img src="sources/img/0-2.png" width="500" height="400"  class="pic_3">
 
                 </div>
 
